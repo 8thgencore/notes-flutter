@@ -72,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
           itemBuilder: (BuildContext context, int index) {
             return ListTile(
               title: Container(
+                alignment: Alignment.centerLeft,
                 padding: EdgeInsets.symmetric(horizontal: 16),
                 height: 70,
                 decoration: BoxDecoration(
